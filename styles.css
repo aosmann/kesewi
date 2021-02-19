@@ -1,15 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
 
 * {
     box-sizing: border-box;
-    background-color: peachpuff !important;
+    
+}
+
+html {
+    background-image: url(images/hero-bg.png);
 }
 
 body {
-    margin: auto;
-    background-color: transparent;
+    box-sizing: border-box;
+    background-color: transparent !important;
+
 }
 
-.container {
-    background-color: transparent;
+a {
+    text-decoration: none;
+}
+
+.logov2 {
+    max-height: 60px;
+    margin: 20px 10px;
+}
+
+.section-about-us {
+    height: 600px;
+    padding: 30px 10px;
+    margin-top: 650px;
+    background-color: #FFFFFF;
 }
