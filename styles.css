@@ -56,10 +56,6 @@ body {
   text-decoration: none;
 }
 
-.logo-row {
-  padding: 40px 0px;
-}
-
 .section-hero {
   background-image: url(images/bg-yellow.png);
   background-size: cover;
@@ -69,19 +65,23 @@ body {
   min-height: 850px;
 }
 
-.section-about-us {
-  background-color: white;
+.section-projects {
+  background-color: transparent;
   padding: 20px 0px;
 }
 
-.text-box {
-  max-width: 500px;
+.text-projects {
+  font-size: 22px;
+  font-weight: 600;
+  color: #292929;
+  margin: 0px;
 }
 
-.image-box {
-}
-
-.section-branding {
-  background-color: #f9f9f9;
-  padding: 20px 0px;
+.project-wide {
+  min-height: 600px;
+  border-radius: 1rem;
+  background-image: url(images/project1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
