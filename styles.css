@@ -54,6 +54,7 @@ body {
   background-color: transparent !important;
   font-family: Montserrat;
   text-decoration: none;
+  margin: auto;
 }
 
 .section-hero {
@@ -66,7 +67,7 @@ body {
 }
 
 .section-projects {
-  background-color: transparent;
+  background-color: white;
   padding: 20px 0px;
 }
 
@@ -79,7 +80,16 @@ body {
 
 .project-wide {
   min-height: 600px;
-  border-radius: 1rem;
+  border-radius: 0.6rem;
+  background-image: url(images/project1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.project-md {
+  min-height: 500px;
+  border-radius: 0.6rem;
   background-image: url(images/project1.png);
   background-size: cover;
   background-repeat: no-repeat;
