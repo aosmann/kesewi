@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 992px) {
   .section-hero {
-    min-height: 300px;
+    min-height: 00px;
   }
 }
 
@@ -19,6 +19,24 @@ html {
 
 * {
   box-sizing: border-box;
+}
+
+.container-relative {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+br {
+  height: 120px;
 }
 
 a {
@@ -58,12 +76,9 @@ body {
 }
 
 .section-hero {
-  background-image: url(images/bg-yellow.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 50px 0px;
-  min-height: 850px;
   margin: 0;
 }
 
@@ -80,7 +95,6 @@ body {
 }
 
 .project-wide {
-  min-height: 700px;
   transition: 0.6s ease;
   opacity: 40%;
 }
@@ -100,13 +114,6 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
-}
-
-.project-1 {
-  background-image: url(images/project-1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .project-2 {
