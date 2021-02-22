@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
+@media screen and (max-width: 992px) {
+  .section-hero {
+    max-height: 650px;
+  }
+}
+
 html,
 body,
 .container-fluid,
