@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
+@media screen and (max-width: 992px) {
+  .section-hero {
+    min-height: 300px;
+  }
+}
+
 html,
 body,
 .container-fluid,
@@ -7,8 +13,18 @@ body,
   height: 100%;
 }
 
+html {
+  background-color: #292929;
+}
+
 * {
   box-sizing: border-box;
+}
+
+a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
 h1 {
@@ -23,38 +39,66 @@ p {
     sans-serif;
 }
 
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.842) !important;
+  opacity: 100%;
+}
+
+.nav-link:focus {
+  color: white !important;
+  opacity: 100%;
+}
+
 body {
   box-sizing: border-box;
   background-color: transparent !important;
   font-family: Montserrat;
   text-decoration: none;
-}
-
-.logo-row {
-  padding: 40px 0px;
+  margin: auto;
 }
 
 .section-hero {
-  background-image: url(images/hero-bg.png);
+  background-image: url(images/bg-yellow.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 700px;
+  padding: 50px 0px;
+  min-height: 850px;
 }
 
-.section-about-us {
+.section-projects {
   background-color: white;
   padding: 20px 0px;
 }
 
-.text-box {
-  max-width: 500px;
+.text-projects {
+  font-size: 22px;
+  font-weight: 500;
+  color: #292929;
+  margin: 0px;
+  margin-top: 5px;
 }
 
-.image-box {
+.project-wide {
+  min-height: 700px;
+  background-image: url(images/project1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.section-branding {
-  background-color: #f9f9f9;
-  padding: 20px 0px;
+.project-md {
+  min-height: 500px;
+  background-image: url(images/project1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.project-sm {
+  min-height: 300px;
+  background-image: url(images/project1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
