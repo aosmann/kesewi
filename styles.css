@@ -7,8 +7,18 @@ body,
   height: 100%;
 }
 
+html {
+  background-color: #292929;
+}
+
 * {
   box-sizing: border-box;
+}
+
+a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
 h1 {
@@ -40,7 +50,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   padding: 50px 0px;
-  min-height: 800px;
+  min-height: 850px;
 }
 
 .section-about-us {
