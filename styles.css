@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
-@media screen and (max-width: 992px) {
-  .section-hero {
-    min-height: 00px;
-  }
-}
-
 html,
 body,
 .container-fluid,
@@ -29,6 +23,10 @@ html {
 }
 
 .centered {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin: 0px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -80,6 +78,13 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   margin: 0;
+}
+
+.bg-hero {
+  min-height: 250px;
+  width: 100%;
+  height: 100%;
+  padding: 0px !important;
 }
 
 .section-projects {
@@ -135,6 +140,6 @@ body {
   background-position: center center;
 }
 
-footer {
+.footer {
   background-color: #202020;
 }
