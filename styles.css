@@ -33,6 +33,16 @@ p {
     sans-serif;
 }
 
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.842) !important;
+  opacity: 100%;
+}
+
+.nav-link:focus {
+  color: white !important;
+  opacity: 100%;
+}
+
 body {
   box-sizing: border-box;
   background-color: transparent !important;
