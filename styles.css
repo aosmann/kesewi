@@ -35,11 +35,12 @@ body {
 }
 
 .section-hero {
-  background-image: url(images/hero-bg.png);
+  background-image: url(images/bg-yellow.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 700px;
+  padding: 50px 0px;
+  min-height: 800px;
 }
 
 .section-about-us {
