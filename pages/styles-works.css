@@ -9,6 +9,8 @@ body,
 
 html {
   background-color: #202020;
+  scroll-behavior: smooth;
+  transition: 0.3s ease;
 }
 
 * {
@@ -23,7 +25,7 @@ html {
 }
 
 .centered {
-  font-size: 3rem;
+  font-weight: 700;
   color: white;
   text-align: center;
   margin: 0px;
@@ -31,6 +33,21 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.more {
+  font-weight: 400;
+  color: #202020;
+  font-size: 50px;
+  margin: 0px;
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.more:hover {
+  opacity: 100%;
+
+  transition: 0.3s ease-in-out;
 }
 
 br {
@@ -46,7 +63,7 @@ a {
 h1 {
   color: #202020;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 p {
@@ -81,6 +98,7 @@ body {
 }
 
 .bg-hero {
+  max-height: 900px;
   min-height: 250px;
   width: 100%;
   height: 100%;
@@ -88,7 +106,7 @@ body {
 }
 
 .section-projects {
-  background-color: transparent;
+  background-color: white;
 }
 
 .text-projects {
@@ -115,29 +133,29 @@ body {
 }
 
 #reel-video {
+  max-height: 950px;
   right: 0;
   bottom: 0;
   width: 100%;
   height: 100%;
 }
 
-.project-2 {
-  background-image: url(images/project-2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+.btn-show-more {
+  font-weight: 500;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1.5px solid #202020;
+  text-align: center;
+  background-color: transparent;
+  transition: 0.3s ease;
 }
-.project-3 {
-  background-image: url(images/project-3.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.project-4 {
-  background-image: url(images/project-4.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+
+.btn-show-more:hover {
+  transition: 0.3s ease;
+
+  color: #ffae00;
+  border: 1.5px solid #ffae00;
 }
 
 .footer {
