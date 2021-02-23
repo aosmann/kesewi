@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
+@media only screen and (min-height: 400px) {
+  .bg-hero {
+    height: 300px;
+  }
+}
+
 html,
 body,
 .container-fluid,
