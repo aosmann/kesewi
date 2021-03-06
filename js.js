@@ -1,3 +1,5 @@
+
+
 let mouseCursor = document.querySelector (".cursor")
 let navLinks = document.querySelectorAll (".navbar")
 let hero = document.querySelectorAll (".brand-text-2")
@@ -30,3 +32,4 @@ hero.forEach(link =>{
         mouseCursor.classList.add ('link-grow-hero')
     });
 });
+
