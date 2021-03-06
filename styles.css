@@ -146,7 +146,7 @@ body {
   opacity: 100%;
   background-color: aliceblue;
   padding: 0px !important;
-  filter: grayscale(100%) brightness(150%);
+  --webkit-filter: grayscale(100%) brightness(150%);
   z-index: -2;
   position: relative;
 }
