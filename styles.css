@@ -271,7 +271,7 @@ body {
 }
 
 .highlight:hover {
-  background: rgba(239, 239, 239, 0.8);
+  background: rgba(231, 231, 231, 0.747);
   transition: all 0.2s;
   transform: scale(1.05);
 }
