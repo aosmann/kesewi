@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="node_modules/iposcursor/css/iposcursor.min.css">
+
     <title>Kesewi | Branding, Design and Marketing</title>
     
 
@@ -23,15 +25,15 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark" style="padding: 15px 0px; ">
         <div class="container d-flex">
-            <a class="navbar-brand" href="#"><img src="images/logo-single.png" style="max-width: 130px;" alt=""></a>
+            <a class="navbar-brand highlight-dark" href="#"><img src="images/logo-single.png" style="max-width: 130px;" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="flex-grow: 0;">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="pages/works.html">Works</a>
-            <a class="nav-item nav-link" href="#">About us</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
+            <a class="nav-item nav-link highlight-dark" href="pages/works.html">Works</a>
+            <a class="nav-item nav-link highlight-dark" href="#">About us</a>
+            <a class="nav-item nav-link highlight-dark "  href="#">Contact</a>
           </div>
         </div>
         </div>    
@@ -50,10 +52,10 @@
                     <br> 
                                                      
                          <h1 class="brand-text" style="display: inline;" >We make </h1>
-                         <h2 class="brand-text-2" style="display: inline;" >Branding.</h2>                                   
+                         <h2 class="brand-text-2 highlight-yellow" style="display: inline;" >Branding.</h2>                                   
                         
                     <br><br><br>
-                    <a href="#reel"><i style="font-size: 35px;" class="material-icons more">expand_more</i></a>                    
+                    <a href="#reel"><i style="font-size: 35px;" class="material-icons more highlight">expand_more</i></a>                    
                 </div>
             </div>
         </div>        
@@ -113,18 +115,21 @@
 
                     
                 </div>
+
+                <br><br>
                 
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="row d-flex text-center">
+                    <div class="col-sm highlight service-box">
                         Service Pack 1
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-sm highlight service-box">
                         Service Pack 2
-
                     </div>
+
+                    <div class="col-sm highlight service-box">
                         Service Pack 3
-                    <div class="col-md-4"></div>
+                    </div>
 
                 </div>
 
@@ -203,37 +208,36 @@
 
 -->
     
-    
+    <div class="highlight">
+        <h1>sad</h1>
+    </div>
 
     <footer class="footer" id="contact">
         <div class="container">
             <div class="row text-center">
                 <h1>Contact</h1>           
             </div>
+            <br><br>
 
             <div class="row text-center">
-                <div class="col md-2"></div>
-                <div class="colmd-4">
+                <div class="col-md highlight-yellow">
                     <h1>Adress</h1>
                     <p>Str. Domenuil 4</p>
                 </div>
-                <div class="colmd-4">
+                <div class="col-md highlight-yellow">
                     <h1>Mail</h1>
                     <p>contact@kesewi.com</p>
 
                 </div>
-                <div class="colmd-2"></div>
 
             </div>
 
         </div>
     </footer>
 
+    <div class="cursor"></div>
 
-
-
-    <div id="cursor" class="cursor">
-        <div class="cursor__content"></div>
+    <script src="node_modules/iposcursor/iposcursor.min.js"></script>
 
     <script src="./js.js"></script>
 </body>
