@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="../images/fav-icon.png"/>
+    <link rel="icon" type="image/png" href="../../images/fav-icon.png"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles-works.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Kesewi</title>
+    
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
  
@@ -16,75 +17,209 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 </head>
-
-
 <body>
-   
-   <nav class="navbar navbar-expand-lg navbar-dark" style="padding: 15px 0px; ">
-      <div class="container d-flex">
-          <a class="navbar-brand" href="../index.html"><img src="../images/logo-single.png" style="max-width: 130px;" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="flex-grow: 0;">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="../pages/works.html">Works</a>
-          <a class="nav-item nav-link" href="#">About us</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
-        </div>
-      </div>
-      </div>    
-  </nav>
 
-  <div class="section-projects" id="works" >
-    <div class="container" style="padding-top: 80px;">
 
-        <div class="row">
-            <div class="col-md-12 project-wide " style="padding: 0px;" >
-                <a href="../projects/project-1.html"><img src="../images/project-1.png" width="100%" alt=""> </a>
-            </div>
-            <div class="bg-light">
-                <p class="text-projects" >Project name</p>
-                <p>Description of project</p>
-                <br>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-12 project-wide " style="padding: 0px;" >
-                <img src="../images/project-2.png" width="100%" alt="">
-            </div>
-            <div class="bg-light">
-                <p class="text-projects" >Project name</p>
-                <p>Description of project</p>
-                <br>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="padding: 15px 0px; ">
+        <div class="container d-flex">
+            <a class="navbar-brand" href="#"><img src="../images/logo-single.png" style="max-width: 130px;" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="flex-grow: 0;">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="../pages/works.html">Works</a>
+            <a class="nav-item nav-link" href="#">About us</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+          </div>
         </div>
-        
-        <div class="row">
-            <div class="col-md-12 project-wide " style="padding: 0px;" >
-                <img src="../images/project-3.png" width="100%" alt="">
-            </div>
-            <div class="bg-light">
-                <p class="text-projects" >Project name</p>
-                <p>Description of project</p>
-                <br>
-            </div>
-        </div>
+        </div>    
+    </nav>
 
-        <div class="row">
-            <div class="col-md-12 project-wide " style="padding: 0px;" >
-                <img src="../images/project-4.png" width="100%" alt="">
-            </div>
-            <div class="bg-light">
-                <p class="text-projects" >Project name</p>
-                <p>Description of project</p>
-                <br>
-            </div>
-        </div>
+ 
 
+    <div class="section-hero align-items-center d-flex">
+        <div class=" container-fluid container-relative">
+            <div class="row">
+                <img class="bg-hero" src="../images/bg-yellow.png" alt=""> 
+                <div class="col-md align-items-center centered" >
+                    <br>
+                    <h1 style="color: #535353;" >Company with no brand</h1>
+                    <h1 style="color: #535353;">is like a body with no skin.</h1>
+                    <br> 
+                                                     
+                         <h1 class="brand-text" style="display: inline;" >We make </h1>
+                         <h2 class="brand-text-2" style="display: inline;" >Branding.</h2>                                   
+                        
+                    <br><br><br>
+                    <a href="#reel"><i style="font-size: 35px;" class="material-icons more">expand_more</i></a>                    
+                </div>
+            </div>
+        </div>        
     </div>
-</div>
 
+    <div class="section-reel" id="reel">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12" style="padding: 0px; margin-top: 4rem;">
+                    <video autoplay muted loop id="reel-video">
+                        <source  src="../images/reel.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                      </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-about-us">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-1">
+                </div>
+
+                <div class="col-md-4 d-flex align-middle" style="padding-bottom: 10px;">
+                    <div style="margin: auto;">
+                        <h1>About us</h1>
+                        <hr class="hr-sm">
+                        <p>We are a young, dynamic Creative Design & Marketing group with 9 years of experience. Our colleagues have been involved in branding, advertising, and communication campaigns of various international brands including the World Health Organization.</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="./../images/who-logo.png" style="width: 100%;" alt="">
+                                </div>                    
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1">
+                </div>
+    
+                <div class="col-md-6">
+                    <img src="./../images/image-about-us.png" style="width: 100%;" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-branding">
+        <div class="container-fluid" style="padding: 0px;">
+            <div class="row ">
+                <div class="col-1">
+                </div>
+
+                <div class="col-10">
+                    <h1>Branding</h1>
+                    <h1 class="hr-sm"></h1> <br>
+                <p>A name, term, sign, symbol, or design, or a combination of them, intended to identify the goods of sellers and to differentiate them from those of competition. 
+
+                    A brand is more than a product, because it can have dimensions that differentiate it from other products designed to satisfy the same need.</p>
+                </div>
+
+                <div class="col-1"></div>
+
+                
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <video autoplay muted loop id="reel-video">
+                        <source  src="../images/time-reel.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                      </video>                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+
+<!--  
+
+    <div class="section-projects" id="works">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12 project-wide " style="padding: 0px;" >
+                    <a href="projects/project-1.html"><img src="../images/project-1.png" width="100%" alt=""> </a>
+                </div>
+                <div style="padding: 0px;">
+                    <p class="text-projects" >Sun Travel</p>
+                    <p>Branding for traveling agency. Travel together.</p>
+                    <br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 project-wide " style="padding: 0px;" >
+                    <img src="../images/project-2.png" width="100%" alt="">
+                </div>
+                <div style="padding: 0px;">
+                    <p class="text-projects" >Mervian</p>
+                    <p>Description of project</p>
+                    <br>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12 project-wide " style="padding: 0px;" >
+                    <img src="../images/project-3.png" width="100%" alt="">
+                </div>
+                <div style="padding: 0px;">
+                    <p class="text-projects" >Sun Travel</p>
+                    <p>Description of project</p>
+                    <br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 project-wide " style="padding: 0px;" >
+                    <img src="../images/project-4.png" width="100%" alt="">
+                </div>
+                <div style="padding: 0px;">
+                    <p class="text-projects" >Project name</p>
+                    <p>Description of project</p>
+                    <br>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <form action="../pages/works.html">
+                    <button class="btn-show-more">
+                        Show All Projects
+                    </button>
+                </form>
+    
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+        </div>
+    </div>
+    
+
+
+-->
+    
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <p>Kesewi</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <div id="cursor" class="cursor">
+        <div class="cursor__content"></div>
+
+    <script src="./../js.js"></script>
 </body>
 </html>

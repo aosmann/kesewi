@@ -26,6 +26,7 @@ cursor {
 
 .link-grow-hero {
   transform: scale(4);
+  background-color: #141414 !important;
 }
 
 link,
@@ -161,6 +162,7 @@ body {
 }
 
 .brand-text-2:hover {
+  color: #ffc400;
   filter: blur(0px);
   opacity: 100%;
   transition: 1s ease;
@@ -224,7 +226,10 @@ body {
 }
 
 .footer {
-  background-color: #141414;
+  background-color: #ffc400;
+  padding: 150px 0px;
+  z-index: -2;
+  position: relative;
 }
 
 .cursor {
@@ -243,16 +248,16 @@ body {
   backdrop-filter: grayscale(0) blur(2px);
 }
 
-.section-about-us {
+.section-branding {
   background-color: white;
-  padding: 50px 0px;
+  padding: 150px 0px;
   z-index: -2;
   position: relative;
 }
 
-.section-branding {
+.section-services {
   background-color: white;
-  padding: 50px 0px;
+  padding: 150px 0px;
   z-index: -2;
   position: relative;
 }
