@@ -1,9 +1,6 @@
 
 
 let mouseCursor = document.querySelector (".cursor")
-let navLinks = document.querySelectorAll (".navbar, .footer")
-let hero = document.querySelectorAll (".brand-text-2")
-
 
 
 window.addEventListener('mousemove', cursor);
@@ -14,6 +11,8 @@ function cursor(e){
 
 }
 
+/*
+
 navLinks.forEach(link =>{
     link.addEventListener ('mouseleave', () => {
         mouseCursor.classList.remove ('link-grow-dark')
@@ -23,17 +22,7 @@ navLinks.forEach(link =>{
     });
 });
 
-
-hero.forEach(link =>{
-    link.addEventListener ('mouseleave', () => {
-        mouseCursor.classList.remove ('link-grow')
-    });
-    link.addEventListener ('mouseover', () => {
-        mouseCursor.classList.add ('link-grow')
-    });
-});
-
-
+*/
 
 let highlightElements = document.querySelectorAll('.highlight');
 let highlightElementsYellow = document.querySelectorAll('.highlight-yellow');
