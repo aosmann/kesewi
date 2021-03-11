@@ -234,12 +234,12 @@ body {
 }
 
 .pr img {
-  -webkit-transition: 0.3s ease;
+  --webkit-transition: 0.3s ease;
 }
 
 .pr:hover img {
   transform: scale(1.07);
-  -webkit-transition: 0.5s ease;
+  --webkit-transition: 0.5s ease;
 }
 
 .pr-text {
