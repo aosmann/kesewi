@@ -126,6 +126,13 @@ h1 {
   font-weight: 800;
 }
 
+h2 {
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 2rem !important;
+}
+
 h3 {
   color: #141414;
   font-family: "Montserrat", sans-serif;
