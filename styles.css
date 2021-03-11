@@ -17,12 +17,6 @@
   }
 }
 
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1900px !important;
-  }
-}
-
 html,
 body,
 .container-fluid,
@@ -45,10 +39,6 @@ body,
 
 cursor {
   overflow: hidden;
-}
-
-.container {
-  width: 1700px !important;
 }
 
 .link-grow {
