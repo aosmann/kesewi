@@ -9,11 +9,21 @@
     padding: 70px 0px !important;
   }
   .branding {
-    padding-top: 70px !important;
+    padding-top: 30px !important;
     padding-bottom: 0px !important;
+    max-width: 280px !important;
+  }
+  .hero-txt-1 {
+    padding-top: 150px;
   }
   .brand-text {
     padding-bottom: 0px !important;
+  }
+  .more {
+    opacity: 0% !important;
+  }
+  h1 {
+    font-size: ;
   }
 }
 
@@ -282,6 +292,7 @@ body {
   width: 1.5rem;
   height: 1.5rem;
   opacity: 90%;
+  border: 3px solid #1414140a;
   border-radius: 100%;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.199);
