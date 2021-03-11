@@ -57,14 +57,6 @@ cursor {
   overflow: hidden;
 }
 
-.link-grow {
-  transform: scale(2);
-}
-
-.link-grow-dark {
-  background: #e0e0e0 !important;
-}
-
 link,
 a,
 button,
@@ -253,7 +245,8 @@ body {
 }
 
 .pr-text {
-  padding: 10px 0px;
+  padding: 15px 0px;
+  font-size: 1.2rem !important;
 }
 
 .btn-show-more {
@@ -283,7 +276,6 @@ body {
 
 .footer {
   background-color: #ffc400;
-  padding: 50px 0px;
   z-index: -2;
   position: relative;
 }
@@ -291,8 +283,7 @@ body {
 .cursor {
   width: 1.5rem;
   height: 1.5rem;
-  opacity: 90%;
-  border: 3px solid #1414140a;
+  opacity: 80%;
   border-radius: 100%;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.199);
