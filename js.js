@@ -56,3 +56,5 @@ highlightElements.forEach(highlightElement => {
       mouseCursor.style.opacity = 1;
     });
   });
+
+
