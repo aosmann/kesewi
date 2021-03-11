@@ -222,20 +222,6 @@ body {
   height: 100%;
 }
 
-.btn-show-more:hover {
-  transition: 0.3s ease;
-
-  color: #ffc400;
-  border: 1.5px solid #ffc400;
-}
-
-.section-branding {
-  background-color: #f5f5f5;
-  padding-top: 150px;
-  z-index: -2;
-  position: relative;
-}
-
 .section-projects {
   background-color: #f5f5f5;
   padding-top: 150px;
@@ -248,14 +234,22 @@ body {
 }
 
 .btn-show-more {
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1rem;
   margin: auto;
   padding: 10px 20px;
   border-radius: 5px;
-  border: 1.5px solid #141414;
+  border: none;
   text-align: center;
   background-color: transparent;
   transition: 0.3s ease;
+}
+
+.section-branding {
+  background-color: #f5f5f5;
+  padding-top: 150px;
+  z-index: -2;
+  position: relative;
 }
 
 .section-services {
@@ -301,6 +295,23 @@ body {
 .highlight:hover {
   color: black;
   background: rgba(231, 231, 231, 0.747);
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.highlight-yellow {
+  padding: 10px;
+  line-height: 10px;
+  background: #ebebeb;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 6px;
+}
+
+.highlight-yellow:hover {
+  color: black;
+  background: #ffc400;
   transition: all 0.2s;
   transform: scale(1.05);
 }
