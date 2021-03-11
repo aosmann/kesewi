@@ -17,6 +17,12 @@
   }
 }
 
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1900px !important;
+  }
+}
+
 html,
 body,
 .container-fluid,
