@@ -239,9 +239,8 @@ body {
   margin: auto;
   padding: 10px 20px;
   border-radius: 5px;
-  border: none;
+  border: none !important;
   text-align: center;
-  background-color: transparent;
   transition: 0.3s ease;
 }
 
@@ -302,7 +301,7 @@ body {
 .highlight-yellow {
   padding: 10px;
   line-height: 10px;
-  background: #ebebeb;
+  background: #ebebeb !important;
   border-radius: 6px;
   display: inline-block;
   transition: all 0.2s;
@@ -311,7 +310,7 @@ body {
 
 .highlight-yellow:hover {
   color: black;
-  background: #ffc400;
+  background: #ffc400 !important;
   transition: all 0.2s;
   transform: scale(1.05);
 }
