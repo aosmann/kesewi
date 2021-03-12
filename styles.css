@@ -125,7 +125,7 @@ h1 {
 h2 {
   color: #141414;
   font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+  font-weight: 600 !important;
   font-size: 2rem !important;
 }
 
@@ -236,6 +236,7 @@ body {
 }
 
 .pr img {
+  border-bottom: none;
   transition: 0.3s ease;
 }
 
@@ -275,7 +276,7 @@ body {
 }
 
 .footer {
-  background-color: #ffc400;
+  background-color: #ebebeb;
   z-index: -2;
   padding: 0px;
   position: relative;
