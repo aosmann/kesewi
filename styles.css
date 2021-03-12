@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+
+@media only screen and (max-width: 576px) {
+  .section-branding,
+  .section-services,
+  .branding,
+  .footer {
+    padding: 70px 0px !important;
+  }
+  .branding {
+    padding-top: 30px !important;
+    padding-bottom: 0px !important;
+    max-width: 280px !important;
+  }
+  .hero-txt-1 {
+    padding-top: 150px;
+  }
+  .brand-text {
+    padding-bottom: 0px !important;
+  }
+  .more {
+    opacity: 0% !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1700px !important;
+  }
+}
+
+html,
+body,
+.container-fluid,
+.row {
+  height: 100%;
+}
+
+.hr-sm {
+  width: 70px;
+  background-color: #ffc400;
+  border: 3px solid #ffc400;
+  border-radius: 100px;
+  opacity: 100%;
+  margin-top: 0px;
+}
+
+.navbar {
+  height: 12vh;
+}
+
+cursor {
+  overflow: hidden;
+}
+
+link,
+a,
+button,
+.nav-link,
+.navbar-brand {
+  z-index: 1;
+}
+
+html {
+  background-color: #f3f3f3;
+  scroll-behavior: smooth;
+  transition: 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-yellow {
+  background-color: #ffc400;
+}
+
+.bg-gray {
+  background-color: #e7e7e7;
+}
+
+.more {
+  font-weight: 400;
+  color: #141414;
+  font-size: 50px;
+  margin: 0px;
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.more:hover {
+  opacity: 100%;
+
+  transition: 0.3s ease-in-out;
+}
+
+br {
+  height: 120px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important;
+  font-size: 2rem !important;
+}
+
+h3 {
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+}
+
+p {
+  font-size: 18px;
+  color: gray;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.nav-link:hover {
+  color: black !important;
+  opacity: 100%;
+}
+
+.nav-link:focus {
+  color: black !important;
+  opacity: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: transparent !important;
+  font-family: Montserrat;
+  text-decoration: none;
+  margin: auto;
+}
+
+.section-hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+  height: 88vh;
+  width: 100%;
+}
+
+.hero-txt-1 {
+  font-weight: 300 !important;
+  font-size: 2rem;
+}
+
+.bg-hero {
+  min-height: 500px;
+  width: 100%;
+  opacity: 0%;
+  padding: 0px !important;
+  z-index: -2;
+  position: relative;
+}
+
+.brand-text {
+  display: inline;
+  color: #141414;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin: auto;
+  padding-bottom: 13px;
+  z-index: -3;
+  position: relative;
+}
+
+.brand-text-2 {
+  display: inline;
+  padding: 0px;
+  margin: auto;
+  transition: 0.5s ease;
+  background: transparent;
+}
+
+.brand-text-2:hover {
+  filter: blur(0px);
+  opacity: 100%;
+  transition: 0.5s ease;
+}
+
+.section-reel {
+  background-color: #f3f3f3;
+  height: auto;
+  z-index: -2;
+  position: relative;
+}
+
+#reel-video {
+  max-height: 950px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section-projects {
+  background-color: #f3f3f3;
+  padding-top: 150px;
+  z-index: -2;
+  position: relative;
+}
+
+.pr {
+  overflow: hidden;
+}
+
+.pr img {
+  border-bottom: none;
+  transition: 0.3s ease;
+}
+
+.pr:hover img {
+  transform: scale(1.07);
+  transition: 0.5s ease;
+}
+
+.pr-text {
+  padding: 15px 0px;
+  font-size: 1.2rem !important;
+}
+
+.btn-show-more {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none !important;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.section-branding {
+  background-color: #f7f7f7;
+  padding-top: 70px;
+  z-index: -2;
+  position: relative;
+}
+
+.section-services {
+  background-color: #f7f7f7;
+  padding: 70px 0px;
+  z-index: -2;
+  position: relative;
+}
+
+.footer {
+  background-color: #ebebeb;
+  z-index: -2;
+  padding: 0px;
+  position: relative;
+}
+
+.cursor {
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 80%;
+  border-radius: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.199);
+  z-index: 1;
+  transform: translate(-50% -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+  backdrop-filter: grayscale(0) blur(2px);
+}
+
+.highlight {
+  padding: 10px;
+  line-height: 10px;
+  background: transparent;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 6px;
+}
+
+.highlight:hover {
+  color: black;
+  background: rgba(231, 231, 231, 0.747);
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.highlight-yellow {
+  padding: 10px;
+  line-height: 10px;
+  background: #ebebeb !important;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 6px;
+}
+
+.highlight-yellow:hover {
+  color: black;
+  background: #ffc400 !important;
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
