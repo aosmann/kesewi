@@ -73,6 +73,14 @@ html {
   box-sizing: border-box;
 }
 
+.bg-yellow {
+  background-color: #ffc400;
+}
+
+.bg-gray {
+  background-color: #e7e7e7;
+}
+
 .more {
   font-weight: 400;
   color: #141414;
