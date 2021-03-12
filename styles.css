@@ -73,25 +73,6 @@ html {
   box-sizing: border-box;
 }
 
-.container-relative {
-  position: relative;
-  text-align: center;
-  padding: 0px;
-}
-
-.centered {
-  font-weight: 700;
-  text-align: center;
-  margin: 0px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #9c3c3c;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-}
-
 .more {
   font-weight: 400;
   color: #141414;
@@ -132,7 +113,7 @@ h2 {
 h3 {
   color: #141414;
   font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+  font-weight: 600 !important;
   font-size: 1.5rem !important;
 }
 
@@ -269,7 +250,7 @@ body {
 }
 
 .section-services {
-  background-color: #f3f3f3;
+  background-color: #f7f7f7;
   padding: 70px 0px;
   z-index: -2;
   position: relative;
@@ -330,9 +311,4 @@ body {
   background: #ffc400 !important;
   transition: all 0.2s;
   transform: scale(1.05);
-}
-
-.service-box {
-  min-height: 300px;
-  padding: 20px 10px;
 }
