@@ -1,4 +1,4 @@
-
+/*
 
 let mouseCursor = document.querySelector (".cursor")
 
@@ -11,7 +11,7 @@ function cursor(e){
 
 }
 
-/*
+
 
 navLinks.forEach(link =>{
     link.addEventListener ('mouseleave', () => {
@@ -23,7 +23,7 @@ navLinks.forEach(link =>{
 });
 
 */
-
+/*
 let highlightElements = document.querySelectorAll('.highlight');
 let highlightElementsYellow = document.querySelectorAll('.highlight-yellow');
 let highlightElementsDark = document.querySelectorAll('.highlight-dark');
@@ -58,3 +58,4 @@ highlightElements.forEach(highlightElement => {
   });
 
 
+*/

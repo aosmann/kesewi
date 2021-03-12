@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+html,
+body,
+.container-fluid,
+.row {
+  height: 100%;
+}
+
+html {
+  background-color: #f3f3f3;
+  scroll-behavior: smooth;
+  transition: 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hr-sm {
+  width: 70px;
+  background-color: #ffc400;
+  border: 3px solid #ffc400;
+  border-radius: 100px;
+  opacity: 100%;
+  margin-top: 0px;
+}
+
+br {
+  height: 120px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 2rem !important;
+}
+
+h3 {
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem !important;
+}
+
+p {
+  color: gray;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.nav-link:hover {
+  color: black !important;
+  opacity: 100%;
+}
+
+.nav-link:focus {
+  color: black !important;
+  opacity: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: transparent !important;
+  font-family: Montserrat;
+  text-decoration: none;
+  margin: auto;
+}
+
+.footer {
+  background-color: #ffc400;
+  z-index: -2;
+  padding: 0px;
+  position: relative;
+}
+
+.section-projects {
+  background-color: #f3f3f3;
+  padding-top: 70px;
+  z-index: -2;
+  position: relative;
+}
+
+.pr {
+  overflow: hidden;
+}
+
+.pr img {
+  transition: 0.3s ease;
+}
+
+.pr:hover img {
+  transform: scale(1.07);
+  transition: 0.5s ease;
+}
+
+.pr-text {
+  padding: 15px 0px;
+  font-size: 1.2rem !important;
+}
+
+.highlight {
+  padding: 10px;
+  line-height: 10px;
+  background: transparent;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 6px;
+}
+
+.highlight:hover {
+  color: black;
+  background: rgba(231, 231, 231, 0.747);
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
