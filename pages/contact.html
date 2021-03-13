@@ -29,31 +29,24 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="flex-grow: 0;">
           <div class="navbar-nav">
-            <a class="nav-item nav-link highlight-focus" style="padding: 15px; text-align: center; width: 110px;" href="#top">Works</a>
-            <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 110px;" href="#">About us</a>
-            <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 110px;" href="#">Contact</a>
+            <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 110px;" href="./../pages/works.html">Works</a>
+            <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 110px;" href="./../pages/about.html">About us</a>
+            <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 110px;" href="./../pages/contact.html">Contact</a>
           </div>
         </div>
         </div>    
     </nav>
 
-    <form action="./../pages/mail_handler.php" method="POST" >
-        <input type="text" id="fullname" name="fullname" placeholder="Name Surname"><br>
-        <textarea name="message" id="message" cols="40" rows="10"></textarea>
-        <button type="submit" action="./../pages/mail_handler.php"">Submit</button>
-    </form>
-
 
    <div class="section-contact">
         <div class="container">
             <div class="row d-flex">
-                <div class="col-md-6 m-auto">
-                    <form action="https://script.google.com/macros/s/AKfycbxEFm7xTgyItpGAAK3eLswMuF-drayzjf5U_qOuUnIMdXffCDOQN2hNMYeIq0JI63BP6g/exec" method="POST" data-email="aosmannur@gmail.com">
-                        <input type="text" id="fullname" name="fullname" placeholder="Name Surname"><br>
-                        <textarea name="message" id="message" cols="40" rows="10"></textarea>
-                        <input type="submit" value="Submit">
+                    <form class="col-xl-6 m-auto" action="https://script.google.com/macros/s/AKfycbxEFm7xTgyItpGAAK3eLswMuF-drayzjf5U_qOuUnIMdXffCDOQN2hNMYeIq0JI63BP6g/exec" method="POST" data-email="aymyratayydow@gmail.com">
+                        <input class="row col-md-6 m-auto p-1" type="text" id="fullname" name="fullname" placeholder="Name Surname"><br>
+                        <input class="row col-md-6 m-auto p-1" type="email" id="email" name="email" placeholder="Email"><br>
+                        <textarea class="row col-md-6 m-auto p-1" name="message" id="message" placeholder="Message" rows="10"></textarea><br>
+                        <input class="row col-md-6 m-auto p-1" type="submit" value="Submit">
                       </form> 
-                </div>
             </div>
         </div>
    </div>
@@ -74,7 +67,6 @@
                 </div>
             </div>
         </div>
-
     </footer>
 
 </body>

@@ -96,11 +96,14 @@ body {
 .footer {
   background-color: #ebebeb;
   padding: 0px;
+  margin: 0%;
+  height: 8vh;
 }
 
-.section-projects {
+.section-contact {
   background-color: #f3f3f3;
   padding-top: 70px;
+  height: 80vh;
 }
 
 .pr {
