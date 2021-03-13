@@ -37,18 +37,11 @@
         </div>    
     </nav>
 
-    <form method="post" name="contact_form" action="./../pages/mail_handler.php">
-    Your Name:
-    <input type="text" name="name">
-
-    Email Address:
-    <input type="text" name="email">
-
-    Message:
-    <textarea name="message"></textarea>
-
-    <input type="submit" value="Submit">
-</form>	
+    <form action="./../pages/mail_handler.php" method="POST" >
+        <input type="text" id="fullname" name="fullname" placeholder="Name Surname"><br>
+        <textarea name="message" id="message" cols="40" rows="10"></textarea>
+        <input type="submit" value="Submit">
+    </form>
 
 
    <div class="section-contact">
