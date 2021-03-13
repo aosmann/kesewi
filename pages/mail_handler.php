@@ -1,15 +1,22 @@
 <?php
 	
-		$name=$_POST['fullname'];
-		$email=$_POST['message'];
-		
+	$errors = '';
+$myemail = 'aosmannur@gmail.com';//<-----Put Your email address here.
+if(empty($_POST['name'])  || 
+   empty($_POST['email']) || 
+   empty($_POST['message']))
+{
+    $errors .= "\n Error: all fields are required";
+}
 
-		$to='aosmannur@gmail.com'; 
-		$subject='Barlag';
-		$message="fullname :".$name."\n"."message :".$email;
-		$headers="From: noreply@gmail.com";
+$name = $_POST['name']; 
+$email_address = $_POST['email']; 
+$message = $_POST['message']; 
 
-	mail($to, $subject, $message, $headers);
-		Header("Location: https://www.ayydov.com");
-	exit();
+if (!preg_match(
+"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
+$email_address))
+{
+    $errors .= "\n Error: Invalid email address";
+}
 ?>
