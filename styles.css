@@ -55,13 +55,7 @@ cursor {
   overflow: hidden;
 }
 
-link,
-a,
-button,
-.nav-link,
-.navbar-brand {
-  z-index: 1;
-}
+
 
 html {
   background-color: #f3f3f3;
@@ -214,7 +208,7 @@ body {
 }
 
 .section-projects {
-  background-color: #f3f3f3;
+  background-color: #fafafa;
   padding-top: 150px;
   z-index: -2;
   position: relative;
@@ -251,14 +245,14 @@ body {
 }
 
 .section-branding {
-  background-color: #f7f7f7;
+  background-color: #fafafa;
   padding-top: 70px;
   z-index: -2;
   position: relative;
 }
 
 .section-services {
-  background-color: #f7f7f7;
+  background-color: #fafafa;
   padding: 70px 0px;
   z-index: -2;
   position: relative;

@@ -22,30 +22,34 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container d-flex">
-            <a class="navbar-brand" href="./../index.html"><img src="./../images/logo-dark.png" style="max-width: 150px;" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="flex-grow: 0;">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 110px;" href="./../pages/works.html">Works</a>
-            <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 110px;" href="./../pages/about.html">About us</a>
-            <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 110px;" href="./../pages/contact.html">Contact</a>
-          </div>
-        </div>
-        </div>    
-    </nav>
+            <div class="container d-flex">
+                <a class="navbar-brand" href="./../index.html"><img src="./../images/logo-dark.png" style="max-width: 150px;" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="flex-grow: 0;">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 110px;" href="./../pages/works.html">Works</a>
+                <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 110px;" href="./../pages/about.html">About us</a>
+                <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 110px;" href="./../pages/contact.html">Contact</a>
+              </div>
+            </div>
+            </div>    
+        </nav>
 
 
-   <div class="section-contact">
-        <div class="container">
+   <div class="section-contact d-flex">
+        <div class="container m-auto">
+            <div class="row text-center pb-5">
+                <h2>Don't hesitate to drop a line.</h2>
+                <div class="hr-sm m-auto"></div>
+            </div>
             <div class="row d-flex">
-                    <form class="col-xl-6 m-auto" action="https://script.google.com/macros/s/AKfycbxEFm7xTgyItpGAAK3eLswMuF-drayzjf5U_qOuUnIMdXffCDOQN2hNMYeIq0JI63BP6g/exec" method="POST" data-email="aymyratayydow@gmail.com">
-                        <input class="row col-md-6 m-auto p-1" type="text" id="fullname" name="fullname" placeholder="Name Surname"><br>
-                        <input class="row col-md-6 m-auto p-1" type="email" id="email" name="email" placeholder="Email"><br>
-                        <textarea class="row col-md-6 m-auto p-1" name="message" id="message" placeholder="Message" rows="10"></textarea><br>
-                        <input class="row col-md-6 m-auto p-1" type="submit" value="Submit">
+                    <form class="col-12 m-auto text-center pb-5" style="max-width: 600px;" action="https://script.google.com/macros/s/AKfycbxEFm7xTgyItpGAAK3eLswMuF-drayzjf5U_qOuUnIMdXffCDOQN2hNMYeIq0JI63BP6g/exec" method="POST" data-email="aymyratayydow@gmail.com">
+                        <input class="row col-12 m-auto box-forms" required type="text" id="fullname" name="fullname" placeholder="Name Surname"><br>
+                        <input class="row col-12 m-auto box-forms" required type="email" id="email" name="email" placeholder="Email"><br>
+                        <textarea class="row col-12 m-auto box-forms" required name="message" id="message" placeholder="Message" rows="4"></textarea><br>
+                        <input class="col-12 m-auto button-forms" type="submit" value="Submit">
                       </form> 
             </div>
         </div>
