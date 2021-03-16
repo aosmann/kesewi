@@ -95,6 +95,10 @@ body {
   padding: 0px;
 }
 
+.section-about {
+  height: 70vh;
+}
+
 .section-projects {
   background-color: #f3f3f3;
   padding-top: 70px;
