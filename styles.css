@@ -70,7 +70,7 @@ cursor {
 
 
 html {
-  background-color: #f3f3f3;
+  background-color: #fafafa;
   scroll-behavior: smooth;
   transition: 0.3s ease;
 }
@@ -196,6 +196,7 @@ body {
   margin: auto;
   transition: 0.5s ease;
   background: transparent;
+  filter: brightness(103%);
 }
 
 .brand-text-mobile {
@@ -213,14 +214,7 @@ body {
   display: none;
 }
 
-.brand-text-2:hover {
-  filter: blur(0px);
-  opacity: 100%;
-  transition: 0.5s ease;
-}
-
 .section-reel {
-  background-color: #f3f3f3;
   height: auto;
   z-index: -2;
   position: relative;

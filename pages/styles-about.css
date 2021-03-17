@@ -26,8 +26,9 @@ html {
   height: 12vh;
 }
 
+
 .hr-sm {
-  width: 70px;
+  width: 70px !important;
   background-color: #ffc400;
   border: 3px solid #ffc400;
   border-radius: 100px;
@@ -99,31 +100,12 @@ body {
   height: 70vh;
 }
 
-.section-projects {
-  background-color: #f3f3f3;
-  padding-top: 70px;
-}
-
-.pr {
-  overflow: hidden;
-}
-
-.pr img {
-  transition: 0.3s ease;
-}
-
-.pr:hover img {
-  transform: scale(1.07);
-  transition: 0.5s ease;
-}
-
-.pr-thumbnail {
+.img-about {
+  background-image: url(./../images/image-about-us.png);
+  background-size: cover;
+  min-height: 300px;
   width: 100%;
-}
-
-.pr-text {
-  padding: 15px 0px;
-  font-size: 1.2rem !important;
+  height: 100%;
 }
 
 #reel-video {
