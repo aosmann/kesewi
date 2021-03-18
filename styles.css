@@ -38,10 +38,7 @@
   .brand-text-mobile {
     display: inline !important;
   }
-  
 }
-
-
 
 html,
 body,
@@ -66,8 +63,6 @@ body,
 cursor {
   overflow: hidden;
 }
-
-
 
 html {
   background-color: #fafafa;
