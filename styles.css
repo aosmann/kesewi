@@ -210,7 +210,7 @@ body {
 }
 
 .section-reel {
-  height: auto;
+  background-color: #fafafa;
   z-index: -2;
   position: relative;
 }
@@ -257,12 +257,6 @@ body {
   border: none !important;
   text-align: center;
   transition: 0.3s ease;
-}
-
-.section-branding {
-  background-color: #fafafa;
-  z-index: -2;
-  position: relative;
 }
 
 .section-services {
