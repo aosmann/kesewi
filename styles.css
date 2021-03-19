@@ -31,12 +31,19 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .hero-txt-1,
   .brand-text,
   .brand-text-2 {
     display: none !important;
   }
   .brand-text-mobile {
     display: inline !important;
+  }
+  .section-hero {
+    height: 55vh !important;
+  }
+  .section-projects {
+    padding-top: 50px !important;
   }
 }
 
@@ -68,6 +75,7 @@ html {
   background-color: #fafafa;
   scroll-behavior: smooth;
   transition: 0.3s ease;
+  overflow-x: hidden;
 }
 
 * {
@@ -264,6 +272,16 @@ body {
   padding: 70px 0px;
   z-index: -2;
   position: relative;
+}
+
+.packs {
+  transition: 0.3s ease;
+  background-color: #f3f3f3;
+}
+
+.packs:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease;
 }
 
 .footer {
