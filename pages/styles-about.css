@@ -89,27 +89,14 @@ body {
   margin: auto;
 }
 
-.footer {
-  background-color: #ebebeb;
-  padding: 0px;
-}
-
 .section-about {
-  height: 70vh;
+  height: 88vh;
 }
 
 .img-about {
   background-image: url(./../images/image-about-us.png);
   background-size: cover;
   min-height: 300px;
-  width: 100%;
-  height: 100%;
-}
-
-#reel-video {
-  max-height: 950px;
-  right: 0;
-  bottom: 0;
   width: 100%;
   height: 100%;
 }
