@@ -19,7 +19,11 @@
   .brand-text {
     padding-bottom: 0px !important;
   }
+}
+
+@media (max-width: 692px) {
   .more {
+    display: none;
     opacity: 0% !important;
   }
 }

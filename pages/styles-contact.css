@@ -100,37 +100,6 @@ body {
 .section-contact {
   background-color: #fafafa;
   min-height: 82vh;
-  padding: 15px;
-}
-
-.pr {
-  overflow: hidden;
-}
-
-.pr img {
-  transition: 0.3s ease;
-}
-
-.pr:hover img {
-  transform: scale(1.07);
-  transition: 0.5s ease;
-}
-
-.pr-thumbnail {
-  width: 100%;
-}
-
-.pr-text {
-  padding: 15px 0px;
-  font-size: 1.2rem !important;
-}
-
-#reel-video {
-  max-height: 950px;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .highlight {
