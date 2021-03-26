@@ -23,7 +23,7 @@
     font-size: 1.5rem !important;
   }
   .section-hero {
-    max-height: 35vh !important;
+    max-height: 50vh !important;
   }
   .more {
     display: none !important;
@@ -31,6 +31,13 @@
   .navbar {
     border-bottom: 1px solid #e4e4e4;
     height: 8vh !important;
+  }
+  h1,
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  .section-reel {
+    display: none;
   }
 }
 
@@ -153,7 +160,7 @@ h2 {
   color: #141414;
   font-family: "Montserrat", sans-serif;
   font-weight: 600 !important;
-  font-size: 2rem !important;
+  font-size: 2rem;
 }
 
 h3 {
