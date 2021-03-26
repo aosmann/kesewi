@@ -23,7 +23,7 @@
 
 @media (max-width: 692px) {
   .more {
-    display: none;
+    display: none !important;
     opacity: 0% !important;
   }
 }
