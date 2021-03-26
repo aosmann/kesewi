@@ -1,5 +1,4 @@
-var video = document.querySelector('video');
-enableInlineVideo(video);
+
 
 
 /*
