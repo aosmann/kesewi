@@ -1,3 +1,7 @@
+var video = document.querySelector('video');
+enableInlineVideo(video);
+
+
 /*
 
 let mouseCursor = document.querySelector (".cursor")
