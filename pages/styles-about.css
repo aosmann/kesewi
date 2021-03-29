@@ -16,6 +16,12 @@ body,
   height: 100%;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 html {
   background-color: #fafafa;
   scroll-behavior: smooth;
