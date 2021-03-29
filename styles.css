@@ -241,15 +241,6 @@ body {
   font-size: 2rem;
 }
 
-.bg-hero {
-  min-height: 500px;
-  width: 100%;
-  opacity: 0%;
-  padding: 0px !important;
-  z-index: -2;
-  position: relative;
-}
-
 .brand-text {
   display: inline;
   color: #141414;
@@ -257,8 +248,6 @@ body {
   font-size: 3.5rem;
   margin: auto;
   padding-bottom: 13px;
-  z-index: -3;
-  position: relative;
 }
 
 .brand-text-2 {
@@ -270,25 +259,8 @@ body {
   filter: brightness(103%);
 }
 
-.brand-text-mobile {
-  display: none;
-  color: #141414;
-  font-weight: 700;
-  font-size: 3.5rem;
-  margin: auto;
-  padding-bottom: 13px;
-  z-index: -3;
-  position: relative;
-}
-
-.hero-mobile {
-  display: none;
-}
-
 .section-reel {
   background-color: #fafafa;
-  z-index: -2;
-  position: relative;
 }
 
 #reel-video {
@@ -300,8 +272,6 @@ body {
 
 .section-projects {
   background-color: #fafafa;
-  z-index: -2;
-  position: relative;
 }
 
 .pr {
@@ -337,8 +307,6 @@ body {
 .section-services {
   background-color: #fafafa;
   padding: 70px 0px;
-  z-index: -2;
-  position: relative;
 }
 
 .packs {
@@ -353,25 +321,7 @@ body {
 
 .footer {
   background-color: #ebebeb;
-  z-index: -2;
   padding: 0px !important;
-  position: relative;
-}
-
-.cursor {
-  width: 1.5rem;
-  height: 1.5rem;
-  opacity: 80%;
-  border-radius: 100%;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.199);
-  z-index: 1;
-  transform: translate(-50% -50%);
-  pointer-events: none;
-  transition: all 0.3s ease;
-  transition-property: background, transform;
-  transform-origin: 100% 100%;
-  backdrop-filter: grayscale(0) blur(2px);
 }
 
 .highlight {

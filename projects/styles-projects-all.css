@@ -62,14 +62,6 @@ cursor {
   overflow: hidden;
 }
 
-link,
-a,
-button,
-.nav-link,
-.navbar-brand {
-  z-index: 1;
-}
-
 html {
   background-color: #fafafa;
   scroll-behavior: smooth;
