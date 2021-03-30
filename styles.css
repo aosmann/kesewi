@@ -162,6 +162,10 @@ html {
   transition: 0.3s ease-in-out;
 }
 
+.navbar {
+  height: 12vh;
+}
+
 .more:hover {
   opacity: 100%;
 
