@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
+{
+  display: none !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .section-services,
+  .branding,
+  .footer {
+    padding: 70px 0px !important;
+  }
+
+  .hero-txt-1 {
+    padding-top: 150px;
+    font-size: 18px !important;
+    max-width: 300px !important;
+    display: none !important;
+  }
+  .brand-text,
+  .brand-text-2 {
+    padding-bottom: 0px !important;
+    font-size: 1.5rem !important;
+    display: none !important;
+  }
+
+  .nav-item {
+    filter: drop-shadow(2px 3px 5px rgba(100, 100, 100, 0.39));
+  }
+
+  .brand-text-mobile {
+    display: inline !important;
+  }
+  .section-hero {
+    max-height: 92vh !important;
+    background-image: url(./images/hero-mobile.jpg);
+
+    margin-bottom: 4vh !important;
+  }
+  .more {
+    display: none !important;
+  }
+  .navbar {
+    border-bottom: 1px solid #e4e4e4;
+    height: 12vh !important;
+  }
+
+  .navbar-collapse {
+    padding-top: 2rem;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  .section-reel {
+    display: none;
+  }
+  /*
+  .branding {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    max-width: 280px !important;
+  }*/
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1700px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 577px) {
+  /*
+  .more,
+  .hero-txt-1,
+  .brand-text,
+  .brand-text-2 {
+    display: none !important;
+  }
+  .brand-text-mobile {
+    display: inline !important;
+  }*/
+
+  .section-hero {
+    max-height: 45vh;
+  }
+
+  .hero-txt-1 {
+    font-size: 25px !important;
+    max-width: 400px !important;
+  }
+
+  .brand-text {
+    font-size: 3rem !important;
+  }
+
+  .more {
+    display: none !important;
+  }
+  .section-hero {
+    height: 55vh !important;
+  }
+  .section-projects {
+    padding-top: 50px !important;
+  }
+}
+
+html,
+body,
+.container-fluid,
+.row {
+  height: 100%;
+}
+
+.hr-sm {
+  width: 70px;
+  background-color: #ffc400;
+  border: 3px solid #ffc400;
+  border-radius: 100px;
+  opacity: 100%;
+  margin-top: 0px;
+}
+
+cursor {
+  overflow: hidden;
+}
+
+html,
+body {
+  max-width: 100%;
+}
+
+html {
+  background-color: #111112;
+  scroll-behavior: smooth;
+  transition: 0.3s ease;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-yellow {
+  background-color: #ffc400;
+}
+
+.bg-gray {
+  background-color: #e7e7e7;
+}
+
+.more {
+  font-weight: 400;
+  color: #141414;
+  font-size: 50px;
+  margin: 0px;
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar {
+  height: 12vh;
+}
+
+.more:hover {
+  opacity: 100%;
+
+  transition: 0.3s ease-in-out;
+}
+
+br {
+  height: 120px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+}
+
+p {
+  font-size: 18px;
+  color: gray;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.nav-link:hover {
+  color: black !important;
+  opacity: 100%;
+}
+
+.nav-link:focus {
+  color: black !important;
+  opacity: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: transparent !important;
+  font-family: Montserrat;
+  text-decoration: none;
+  margin: auto;
+}
+
+.section-hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+  height: 88vh;
+  width: 100%;
+}
+
+.hero-txt-1 {
+  font-weight: 300 !important;
+  font-size: 2rem;
+}
+
+.brand-text {
+  display: inline;
+  color: #535353;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin: auto;
+  padding-bottom: 13px;
+}
+
+.brand-text-2 {
+  display: inline;
+  padding: 0px;
+  margin: auto;
+  transition: 0.5s ease;
+  background: transparent;
+  filter: brightness(103%);
+}
+
+.section-reel {
+  background-color: #fafafa;
+}
+
+#reel-video {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section-projects {
+  background-color: #fafafa;
+}
+
+.pr {
+  overflow: hidden;
+}
+
+.pr img {
+  border-bottom: none;
+  transition: 0.3s ease;
+}
+
+.pr:hover img {
+  transform: scale(1.07);
+  transition: 0.5s ease;
+}
+
+.pr-text {
+  padding: 15px 0px;
+  font-size: 1.2rem !important;
+}
+
+.btn-show-more {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none !important;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.section-services {
+  background-color: #fafafa;
+  padding: 70px 0px;
+}
+
+.packs {
+  transition: 0.3s ease;
+  background-color: #f3f3f3;
+}
+
+.packs:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
+
+.footer {
+  background-color: #ebebeb;
+  padding: 0px !important;
+}
+
+.highlight {
+  padding: 10px;
+  line-height: 10px;
+  background: transparent;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 6px;
+}
+
+.highlight:hover {
+  color: black;
+  background: rgba(231, 231, 231, 0.747);
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.highlight-yellow {
+  padding: 10px;
+  line-height: 10px;
+  background: #ebebeb !important;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 6px;
+}
+
+.highlight-yellow:hover {
+  color: black;
+  background: #ffc400 !important;
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.highlight-yellow-dark {
+  color: #535353 !important;
+  padding: 10px;
+  line-height: 10px;
+  background: #1d1d1d !important;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 6px;
+}
+
+.highlight-yellow-dark:hover {
+  color: black;
+  background: #ffc400 !important;
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
