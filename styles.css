@@ -59,12 +59,6 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
   .section-reel {
     display: none;
   }
-  /*
-  .branding {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-    max-width: 280px !important;
-  }*/
 }
 
 @media (min-width: 1400px) {
@@ -74,17 +68,6 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
 }
 
 @media only screen and (max-width: 767px) and (min-width: 577px) {
-  /*
-  .more,
-  .hero-txt-1,
-  .brand-text,
-  .brand-text-2 {
-    display: none !important;
-  }
-  .brand-text-mobile {
-    display: inline !important;
-  }*/
-
   .section-hero {
     max-height: 45vh;
   }
@@ -135,7 +118,6 @@ body {
 }
 
 html {
-  background-color: #fafafa;
   scroll-behavior: smooth;
   transition: 0.3s ease;
   overflow-x: hidden;
@@ -164,11 +146,16 @@ html {
 
 .navbar {
   height: 12vh;
+  background-color: #111210;
+}
+
+.more-scroll {
+  height: 20vh;
+  background-color: #111210;
 }
 
 .more:hover {
   opacity: 100%;
-
   transition: 0.3s ease-in-out;
 }
 
@@ -178,11 +165,11 @@ br {
 
 a {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
+  text-decoration: none !important;
 }
 
 h1 {
-  color: #141414;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
@@ -203,7 +190,7 @@ h3 {
 
 p {
   font-size: 18px;
-  color: gray;
+
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
@@ -227,11 +214,9 @@ body {
 }
 
 .section-hero {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-color: #111210;
   margin: 0;
-  height: 88vh;
+  height: 68vh;
   width: 100%;
 }
 
@@ -242,11 +227,10 @@ body {
 
 .brand-text {
   display: inline;
-  color: #141414;
+  color: #535353;
   font-weight: 700;
   font-size: 3.5rem;
   margin: auto;
-  padding-bottom: 13px;
 }
 
 .brand-text-2 {
@@ -308,16 +292,6 @@ body {
   padding: 70px 0px;
 }
 
-.packs {
-  transition: 0.3s ease;
-  background-color: #f3f3f3;
-}
-
-.packs:hover {
-  transform: scale(1.02);
-  transition: 0.3s ease;
-}
-
 .footer {
   background-color: #ebebeb;
   padding: 0px !important;
@@ -355,4 +329,38 @@ body {
   background: #ffc400 !important;
   transition: all 0.2s;
   transform: scale(1.05);
+}
+
+.highlight-yellow-dark {
+  color: #535353 !important;
+  padding: 10px;
+  line-height: 10px;
+  background: #1d1d1d !important;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 6px;
+}
+
+.highlight-yellow-dark:hover {
+  color: black;
+  background: #ffc400 !important;
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.pack {
+  position: relative;
+}
+
+.pack img {
+  vertical-align: middle;
+}
+
+.pack .pack-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  color: #141414;
 }

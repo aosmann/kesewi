@@ -135,7 +135,7 @@ body {
 }
 
 html {
-  background-color: #111112;
+  background-color: #fafafa;
   scroll-behavior: smooth;
   transition: 0.3s ease;
   overflow-x: hidden;
@@ -242,7 +242,7 @@ body {
 
 .brand-text {
   display: inline;
-  color: #535353;
+  color: #141414;
   font-weight: 700;
   font-size: 3.5rem;
   margin: auto;
@@ -351,24 +351,6 @@ body {
 }
 
 .highlight-yellow:hover {
-  color: black;
-  background: #ffc400 !important;
-  transition: all 0.2s;
-  transform: scale(1.05);
-}
-
-.highlight-yellow-dark {
-  color: #535353 !important;
-  padding: 10px;
-  line-height: 10px;
-  background: #1d1d1d !important;
-  border-radius: 6px;
-  display: inline-block;
-  transition: all 0.2s;
-  margin: 6px;
-}
-
-.highlight-yellow-dark:hover {
   color: black;
   background: #ffc400 !important;
   transition: all 0.2s;
