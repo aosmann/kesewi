@@ -6,7 +6,7 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
 {
   display: none !important;
 }
-
+/*
 @media only screen and (max-width: 576px) {
   .section-services,
   .branding,
@@ -59,7 +59,7 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
   .section-reel {
     display: none;
   }
-}
+}*/
 
 @media (min-width: 1400px) {
   .container {
@@ -263,12 +263,12 @@ body {
 
 .pr img {
   border-bottom: none;
-  transition: 0.3s ease;
+  transition: 0.3s ease-out;
 }
 
 .pr:hover img {
   transform: scale(1.07);
-  transition: 0.5s ease;
+  transition: 0.3s ease-out;
 }
 
 .pr-text {
@@ -351,10 +351,7 @@ body {
 
 .pack {
   position: relative;
-}
-
-.pack img {
-  vertical-align: middle;
+  padding: 1rem;
 }
 
 .pack .pack-text {
@@ -362,5 +359,53 @@ body {
   bottom: 0;
   width: 100%;
   padding: 20px;
-  color: #141414;
+  color: #fff;
+}
+
+.pack-text a {
+  color: #fff;
+}
+.pack-text a:hover {
+  color: #ffc400;
+}
+
+.img {
+  min-height: 500px;
+}
+
+.pack-text {
+  padding-top: 60px !important;
+  background: linear-gradient(
+    180deg,
+    rgba(33, 33, 33, 0) 0%,
+    rgba(19, 19, 19, 0.479) 100%
+  );
+}
+
+.service-1 {
+  background-image: url(./images/service-branding.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-2 {
+  background-image: url(./images/service-marketing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-3 {
+  background-image: url(./images/service-ui.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-4 {
+  background-image: url(./images/service-animation.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
