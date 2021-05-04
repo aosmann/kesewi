@@ -1,5 +1,5 @@
 $().ready(function(){
 
-  $('div.loader').delay(1600);
+  $('div.loader').delay(2000);
    $('div.loader').fadeOut("fast");
 });
