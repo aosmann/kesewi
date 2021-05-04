@@ -63,7 +63,7 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
 
 @media (min-width: 1400px) {
   .container {
-    max-width: 1700px !important;
+    max-width: 1600px !important;
   }
 }
 
@@ -115,6 +115,7 @@ cursor {
 html,
 body {
   max-width: 100%;
+  background-color: white;
 }
 
 html {
@@ -125,14 +126,6 @@ html {
 
 * {
   box-sizing: border-box;
-}
-
-.bg-yellow {
-  background-color: #ffc400;
-}
-
-.bg-gray {
-  background-color: #e7e7e7;
 }
 
 .more {
@@ -178,7 +171,7 @@ h2 {
   color: #141414;
   font-family: "Montserrat", sans-serif;
   font-weight: 600 !important;
-  font-size: 2rem;
+  font-size: 1.7rem !important;
 }
 
 h3 {
@@ -189,7 +182,7 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
 
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
@@ -254,7 +247,7 @@ body {
 }
 
 .section-projects {
-  background-color: #fafafa;
+  background-color: #fff;
 }
 
 .pr {
@@ -286,12 +279,12 @@ body {
 }
 
 .section-services {
-  background-color: #fafafa;
+  background-color: #fff;
   padding: 0px 0px;
 }
 
 .footer {
-  background-color: #ebebeb;
+  background-color: #f5f5f7;
   padding: 0px !important;
 }
 
@@ -357,27 +350,19 @@ body {
   bottom: 0;
   width: 100%;
   padding: 20px;
-  color: #fff;
+  color: #202020;
 }
 
 .pack-text a {
-  color: #fff;
-}
-.pack-text a:hover {
-  color: #ffc400;
+  color: #6b9fff;
 }
 
 .img {
-  min-height: 500px;
+  min-height: 580px;
 }
 
 .pack-text {
   padding-top: 60px !important;
-  background: linear-gradient(
-    180deg,
-    rgba(33, 33, 33, 0) 0%,
-    rgba(19, 19, 19, 0.479) 100%
-  );
 }
 
 .service-1 {
