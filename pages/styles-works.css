@@ -1,6 +1,6 @@
 @media (min-width: 1400px) {
   .container {
-    max-width: 1700px !important;
+    max-width: 1600px !important;
   }
 }
 
@@ -51,12 +51,11 @@ br {
 
 a {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   text-decoration: none !important;
 }
 
 h1 {
-  color: #141414;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
@@ -65,19 +64,19 @@ h2 {
   color: #141414;
   font-family: "Montserrat", sans-serif;
   font-weight: 600 !important;
-  font-size: 2rem !important;
+  font-size: 1.7rem !important;
 }
 
 h3 {
   color: #141414;
   font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+  font-weight: 600 !important;
   font-size: 1.5rem !important;
 }
 
 p {
-  font-size: 18px;
-  color: gray;
+  font-size: 20px;
+
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
@@ -101,8 +100,8 @@ body {
 }
 
 .footer {
-  background-color: #ebebeb;
-  padding: 0px;
+  background-color: #f5f5f7;
+  padding: 0px !important;
 }
 
 .section-projects {

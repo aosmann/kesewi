@@ -392,3 +392,24 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+/* Loading animation */
+
+div.loader {
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: #ffc400;
+  position: fixed;
+  padding: 10px;
+  z-index: 9999;
+}
+
+.loader-container {
+  height: 100vh;
+  width: 100vh;
+}
+
+.loader-gif {
+  width: 100%;
+}
