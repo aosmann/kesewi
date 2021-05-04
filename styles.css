@@ -130,7 +130,7 @@ html {
 
 .more {
   font-weight: 400;
-  color: #141414;
+  color: #131313;
   font-size: 50px;
   margin: 0px;
   opacity: 60%;
@@ -139,12 +139,12 @@ html {
 
 .navbar {
   height: 12vh;
-  background-color: #141414;
+  background-color: #131313;
 }
 
 .more-scroll {
   height: 20vh;
-  background-color: #141414;
+  background-color: #131313;
 }
 
 .more:hover {
@@ -169,14 +169,14 @@ h1 {
 }
 
 h2 {
-  color: #141414;
+  color: #131313;
   font-family: "Montserrat", sans-serif;
   font-weight: 600 !important;
   font-size: 1.7rem !important;
 }
 
 h3 {
-  color: #141414;
+  color: #131313;
   font-family: "Montserrat", sans-serif;
   font-weight: 600 !important;
   font-size: 1.5rem !important;
@@ -208,7 +208,7 @@ body {
 }
 
 .section-hero {
-  background-color: #141414;
+  background-color: #131313;
   margin: 0;
   height: 68vh;
   width: 100%;
