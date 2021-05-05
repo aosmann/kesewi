@@ -305,28 +305,28 @@ body {
 }
 
 .service-1 {
-  background-image: url(./images/service-branding.webp);
+  background-image: url(./images/service-branding.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .service-2 {
-  background-image: url(./images/service-marketing.webp);
+  background-image: url(./images/service-marketing.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .service-3 {
-  background-image: url(./images/service-ui.webp);
+  background-image: url(./images/service-ui.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .service-4 {
-  background-image: url(./images/service-animation.webp);
+  background-image: url(./images/service-animation.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
