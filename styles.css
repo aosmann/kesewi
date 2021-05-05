@@ -138,6 +138,7 @@ html {
 }
 
 .navbar {
+  top: 0px;
   background-color: #131313;
 }
 
