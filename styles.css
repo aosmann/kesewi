@@ -352,3 +352,16 @@ div.loader {
 .loader-gif {
   width: 100%;
 }
+
+.fade {
+  -webkit-animation: fadein 1s linear 2 normal forwards;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
