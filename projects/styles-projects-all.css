@@ -54,7 +54,9 @@ body {
 }
 
 .navbar {
-  height: 12vh;
+  padding: 1rem 1rem;
+  top: 0px;
+  background-color: #fafafa;
 }
 
 cursor {
