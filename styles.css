@@ -138,6 +138,7 @@ html {
 }
 
 .navbar {
+  padding: 1rem 1rem;
   top: 0px;
   background-color: #131313;
 }
@@ -165,7 +166,7 @@ a {
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700 !important;
-  font-size: 3rem !important;
+  font-size: 3.2rem !important;
 }
 
 h2 {
@@ -210,7 +211,7 @@ body {
 .section-hero {
   background-color: #131313;
   margin: 0;
-  height: 68vh;
+  height: 72vh;
   width: 100%;
 }
 
