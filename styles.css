@@ -2,9 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 
-img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
-{
-  display: none !important;
+@media (max-width: 576px) {
+  .section-reel {
+    display: none !important;
+  }
+  .more {
+    display: none !important;
+  }
 }
 
 @media (min-width: 1400px) {
