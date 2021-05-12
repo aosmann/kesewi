@@ -13,6 +13,9 @@
   .testimonials {
     display: none !important;
   }
+  .clients {
+    display: none;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -190,7 +193,6 @@ body {
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 100%;
 }
 
 .section-projects {
@@ -340,23 +342,6 @@ body {
   background-position: center;
 }
 
-/* Loading animation */
-
-div.loader {
-  right: 0;
-  left: 0;
-  top: 0;
-  background-color: #ffc400;
-  position: fixed;
-  padding: 10px;
-  z-index: 9999;
-}
-
-.loader-container {
-  height: 100vh;
-  width: 100vh;
-}
-
-.loader-gif {
-  width: 100%;
+.clients {
+  background-color: #202020;
 }
