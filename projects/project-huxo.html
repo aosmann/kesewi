@@ -24,53 +24,59 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark-1 fixed-top">
         <div class="container p-2 pt-3">
-            <a class="navbar-brand" href="/"><img src="./../images/logo-dark.png" style="max-width: 150px;" alt=""></a>
+            <a class="navbar-brand" href="/"><img src="./../images/logo-white.png" style="max-width: 150px;" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="flex-grow: 0;">
           <div class="navbar-nav float-end">
-            <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 130px;" href="./../pages/works.html"><p style="margin: 0%;">Works</p></a>
-            <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 130px;" href="./../pages/about.html"><p style="margin: 0%;">About Us</p></a>
-            <a class="nav-item nav-link highlight-yellow" style="padding: 15px; text-align: center; width: 130px;" href="./../pages/contact.html"><p style="margin: 0%;">Contact</p></a>
+            <a class="nav-item nav-link highlight-yellow-dark" style="padding: 15px; text-align: center; width: 130px;" href="./../pages/works.html"><p style="margin: 0%;">Works</p></a>
+            <a class="nav-item nav-link highlight-yellow-dark" style="padding: 15px; text-align: center; width: 130px;" href="./../pages/about.html"><p style="margin: 0%;">About Us</p></a>
+            <a class="nav-item nav-link highlight-yellow-dark" style="padding: 15px; text-align: center; width: 130px;" href="./../pages/contact.html"><p style="margin: 0%;">Contact</p></a>
           </div>
         </div>
         </div>    
 </nav>
 
 
-    <div class="section-projects" id="reel">
-      <div class="container">
-         <div class="row" id="header-text">
-               <div class="col-xxl-6 text-center m-auto">
-                  <h2>Event Design for "huxo".</h2>
-                  <p>Our colleagues have created creative event design for "huxo".</p>
-                  <br>
-               </div>
-         </div>
-         
+    <div class="section-projects p-0" style="margin-top: 4rem;">
+      <div class="container-fluid p-0">
+
          <div class="row" id="gallery">
-            <div class="col-sm-12 p-1">
-                <img class="img-gallery" src="./../images/Projects/Huxo/wide.png" alt="">
+            <div class="col-sm-12 p-0">
+                <img class="img-gallery" src="./../images/Projects/Huxo/wide-dark.png" alt="">
              </div>
-            <div class="col-sm-6 p-1">
+             <div class="col-12 bg-dark-1 p-5" id="fade">
+                <div class="m-auto text-center text-light p-2" style="max-width: 900px;">
+                   <p>
+                       Our colleagues have created unique brand identity for "Focus On" filmmakers group. This filmmakers filming product advertisements, short social media ads and much more creative films.
+                   </p>
+                </div>
+            </div>
+            <div class="col-sm-12 p-0">
                 <img class="img-gallery" src="./../images/Projects/Huxo/billboard.jpg" alt="">
             </div>
-            <div class="col-sm-6 p-1">
+            <div class="col-sm-6 p-0 d-flex bg-dark-1">
+                <div class="container m-auto" style="max-height: 400px;max-width: 700px !important;">
+                    <h1 class="text-light">huxo events</h1>
+                    <p style="color: #747474;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 p-0">
                 <img class="img-gallery" src="./../images/Projects/Huxo/billboard2.jpg" alt="">
             </div>
-            <div class="col-sm-6 p-1">
+            <div class="col-sm-6 p-0">
                 <img class="img-gallery" src="./../images/Projects/Huxo/ticket.jpg" alt="">
             </div>
-            <div class="col-sm-6 p-1">
+            <div class="col-sm-6 p-0">
                 <img class="img-gallery" src="./../images/Projects/Huxo/id-card.jpg" alt="">
             </div>
-            <div class="col-sm-6 p-1">
+            <div class="col-sm-6 p-0">
                 <img class="img-gallery" src="./../images/Projects/Huxo/wrist.jpg" alt="">
             </div>
-            <div class="col-sm-6 p-1">
+            <div class="col-sm-6 p-0">
                 <img class="img-gallery" src="./../images/Projects/Huxo/tape.jpg" alt="">
             </div>
             
@@ -79,7 +85,7 @@
       </div>
   </div> 
 
-  <div class="container"><hr></div>
+
 
   <div class="section-similar-works">
     <div class="container p-md-5">
@@ -127,13 +133,18 @@
 
 
 <div class="div" class="container-fluid"  style="padding: 18px 0px; border-top: 0.5px solid #16161663;">
-    <div class="container p-md-5 pt-md-0 pb-md-0">
-        <div class="row">
-            <p style="margin: 0; color: #141414;">© 2021 | Kesewi. All rights reserved.
-            </p>
+            <div class="container pt-md-0 pb-md-0">
+                <div class="row d-flex justify-content-between">
+                    <div class="col">
+                        <p style="margin: 0; color: #404040;font-size: 1rem;">© 2021 | Kesewi Solutions LLC. All rights reserved.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="text-end"  style="margin: 0; color: #404040;font-size: 1rem;">Georgia, Bob Walsh 32</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-  </div>
 
 </body>
 </html>

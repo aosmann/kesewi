@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@1,700&display=swap");
+
+@media (max-width: 576px) {
+  .section-reel {
+    display: none !important;
+  }
+  .more {
+    display: none !important;
+  }
+  .testimonials {
+    display: none !important;
+  }
+  .clients {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1600px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 577px) {
+  .section-hero {
+    max-height: 45vh;
+  }
+
+  .hero-txt-1 {
+    font-size: 25px !important;
+    max-width: 400px !important;
+  }
+
+  .brand-text {
+    font-size: 3rem !important;
+  }
+
+  .more {
+    display: none !important;
+  }
+  .section-hero {
+    height: 55vh !important;
+  }
+  .section-projects {
+    padding-top: 50px !important;
+  }
+}
+
+html,
+body,
+.container-fluid,
+.row {
+  height: 100%;
+}
+
+.hr-sm {
+  width: 70px;
+  background-color: #ffc400;
+  border: 3px solid #ffc400;
+  border-radius: 100px;
+  opacity: 100%;
+  margin-top: 0px;
+}
+
+cursor {
+  overflow: hidden;
+}
+
+html,
+body {
+  max-width: 100%;
+  background-color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: 0.3s ease;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.more {
+  font-weight: 400;
+  color: #131313;
+  font-size: 50px;
+  margin: 0px;
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar {
+  margin: 0px;
+  padding: 1rem 1rem;
+  top: 0px;
+  background-color: #131313;
+}
+
+.more-scroll {
+  height: 20vh;
+  background-color: #131313;
+}
+
+.more:hover {
+  opacity: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+br {
+  height: 120px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-decoration: none !important;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700 !important;
+  font-size: 3.2rem !important;
+}
+
+h2 {
+  color: #131313;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.7rem !important;
+}
+
+h3 {
+  color: #131313;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+}
+
+p {
+  font-size: 20px;
+
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.nav-link:hover {
+  color: black !important;
+  opacity: 100%;
+}
+
+.nav-link:focus {
+  color: black !important;
+  opacity: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: transparent !important;
+  font-family: Montserrat;
+  text-decoration: none;
+  margin: auto;
+}
+
+.section-hero {
+  background-color: #131313;
+  margin: 0;
+  height: 72vh;
+  width: 100%;
+}
+
+.hero-txt-1 {
+  font-weight: 300 !important;
+  font-size: 2rem;
+}
+
+.brand-text {
+  display: inline;
+  color: #535353;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin: auto;
+}
+
+.section-reel {
+  background-color: #fafafa;
+}
+
+#reel-video {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.section-projects {
+  background-color: #fff;
+}
+
+.pr {
+  overflow: hidden;
+}
+
+.pr img {
+  border-bottom: none;
+  transition: 0.3s ease-out;
+}
+
+.pr:hover img {
+  transform: scale(1.07);
+  transition: 0.3s ease-out;
+}
+
+.pr-text {
+  padding: 15px 0px;
+  font-size: 1.2rem !important;
+}
+
+.btn-show-more {
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none !important;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.section-services {
+  background-color: #fff;
+  padding: 0px 0px;
+}
+
+.footer {
+  background-color: #f5f5f7;
+  padding: 0px !important;
+}
+
+.highlight {
+  padding: 10px;
+  line-height: 10px;
+  background: transparent;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 6px;
+}
+
+.highlight:hover {
+  color: black;
+  background: rgba(231, 231, 231, 0.747);
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.highlight-yellow {
+  padding: 10px;
+  line-height: 10px;
+  background: #ebebeb !important;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 6px;
+}
+
+.highlight-yellow:hover {
+  color: black;
+  background: #ffc400 !important;
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.highlight-yellow-dark {
+  color: #646464 !important;
+  padding: 10px;
+  line-height: 10px;
+  background: #2b2b2b !important;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 6px;
+}
+
+.highlight-yellow-dark:hover {
+  color: black;
+  background: #ffc400 !important;
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.pack {
+  position: relative;
+  padding: 1rem;
+}
+
+.pack .pack-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  color: #202020;
+}
+
+.pack-text a {
+  color: #6b9fff;
+}
+
+.img {
+  min-height: 580px;
+}
+
+.pack-text {
+  padding-top: 60px !important;
+}
+
+.service-1 {
+  background-image: url(./images/service-branding.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-2 {
+  background-image: url(./images/service-marketing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-3 {
+  background-image: url(./images/service-ui.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-4 {
+  background-image: url(./images/service-animation.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.clients {
+  background-color: #202020;
+}
+
+.testimonials {
+  background-color: #f5f5f7;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #131313 !important;
+
+  height: 0.3rem !important;
+  opacity: 0.2 !important;
+}
+
+.carousel-indicators .active {
+  opacity: 1 !important;
+  background-color: #ffc400 !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)
+    brightness(104%) contrast(97%);
+}
+
+.container-image {
+  position: relative;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
